@@ -11,3 +11,9 @@ npm run preview    # preview the production build
 ## Security blueprint
 
 The plan and sample code for authentication, RBAC, validation, logging, and demo steps are documented in [`docs/security-plan.md`](docs/security-plan.md). Use it as the reference for implementing the course checklist.
+
+## Quick start
+
+- Install dependencies with `npm install`.
+- Run the dev server via `npm run dev -- --host`.
+- Default administrator account: `admin@example.com` with password `AdminStrong!1` (change after first login).
