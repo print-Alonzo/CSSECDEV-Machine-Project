@@ -21,7 +21,7 @@
                         {/if}
                         <a href="/settings/security">Security</a>
                 </nav>
-                <form method="POST" action="?/logout" use:enhance class="logout">
+                <form method="POST" action="/logout" use:enhance class="logout">
                         <span class="user">{user.name} ({user.role})</span>
                         <button type="submit">Logout</button>
                 </form>
